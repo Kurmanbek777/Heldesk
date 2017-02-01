@@ -100,7 +100,8 @@ public class Department implements Serializable {
 
     @Override
     public String toString() {
-        return "jpa.entities.Department[ id=" + id + " ]";
+       // return "jpa.entities.Department[ id=" + id + " ]";
+       return id + ". " + department;
     }
     
 }

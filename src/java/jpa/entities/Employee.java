@@ -111,7 +111,8 @@ public class Employee implements Serializable {
 
     @Override
     public String toString() {
-        return "jpa.entities.Employee[ id=" + id + " ]";
+       // return "jpa.entities.Employee[ id=" + id + " ]";
+       return id + ". " + fName;
     }
     
 }

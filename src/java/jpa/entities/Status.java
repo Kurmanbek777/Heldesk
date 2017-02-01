@@ -100,7 +100,8 @@ public class Status implements Serializable {
 
     @Override
     public String toString() {
-        return "jpa.entities.Status[ id=" + id + " ]";
+       //  return "jpa.entities.Status[ id=" + id + " ]";
+       return id + ". " + status;
     }
     
 }

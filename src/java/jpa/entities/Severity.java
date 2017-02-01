@@ -99,7 +99,8 @@ public class Severity implements Serializable {
 
     @Override
     public String toString() {
-        return "jpa.entities.Severity[ id=" + id + " ]";
+     //   return "jpa.entities.Severity[ id=" + id + " ]";
+     return id + ". " + severity;
     }
     
 }
