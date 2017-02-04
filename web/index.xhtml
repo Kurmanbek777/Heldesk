@@ -11,7 +11,13 @@
         <br />
         
         
-        
+        <form>
+	<input type="button" value="Показать все Департаменты" onclick="javascript:window.location='http://localhost:2822/Helpdesk/faces/department/List.xhtml'"/>
+	<input type="button" value="Показать всех исполнителей" onclick="javascript:window.location='http://localhost:2822/Helpdesk/faces/employee/List.xhtml'"/>
+        <input type="button" value="Показать все заявки" onclick="javascript:window.location='http://localhost:2822/Helpdesk/faces/helpdesk/List.xhtml'"/>
+        <input type="button" value="Показать степень важности заявок" onclick="javascript:window.location='http://localhost:2822/Helpdesk/faces/severity/List.xhtml'"/>
+        <input type="button" value="Показать все статусы заявок" onclick="javascript:window.location='http://localhost:2822/Helpdesk/faces/status/List.xhtml'"/>
+        </form>
         
         
         <h:link outcome="/department/List" value="Показать все Департаменты"/>

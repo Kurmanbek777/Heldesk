@@ -48,7 +48,13 @@
                 <h:commandLink action="#{departmentController.prepareCreate}" value="#{bundle.ListDepartmentCreateLink}"/>
                 <br />
                 <br />
+                <input type="button" value="Создать новый департамент" onclick="javascript:window.location='http://localhost:2822/Helpdesk/faces/department/Create.xhtml'"/>
+                <br />
+                <br />
                 <h:link outcome="/index" value="#{bundle.ListDepartmentIndexLink}"/>
+                <br />
+                <br />
+                <input type="button" value="Домой" onclick="javascript:window.location='http://localhost:2822/Helpdesk/faces/index.xhtml'"/>
             </h:form>
         </ui:define>
     </ui:composition>
