@@ -15,10 +15,11 @@ a {
 
 table {
     empty-cells: show;
+    border: 4px double #399;
 }
 
 form.jsfcrud_list_form th, td th {
-    font-size: x-small;
+    font-size: small;
     color: #4e6a71;
     border-top-style: solid;
     border-bottom-style: solid;
